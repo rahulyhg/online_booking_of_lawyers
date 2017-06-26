@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>Sign Up form</title>
+  <link href="registeration.css" type="text/css" rel="stylesheet">
+<head>
+<body>
+  <center><div id="first">
+      <center><div id="third"><p>SIGN UP FORM</p></div></center>
+	 <br><br><center><div>
+	    <form method="post"" action="php/regprocessR.php">
+        <table border="0">
+        <tr>
+           <td><input class="i2" type="text" name="firstname" placeholder="Firstname" required /><td>
+		   <td><input class="i3" type="text" name="lastname" placeholder="Lastname" required /></td>
+        </tr>
+		<tr>
+           <td><input type="text" name="email" placeholder="Email Id" required /></td>
+        </tr>
+		<tr>
+           <td><input type="tel" name="contact" placeholder="Contact Number" required /></td>
+        </tr>
+	<!--	<tr>
+		   <td class="t1">Male</td>
+           <td class="t1"><input type="radio" name="Male" value="Male" checked />
+		   <td class="t1" >Female</td>
+		   <td class="t1"><input type="radio" name="Female" value="Female"/></td>
+        </tr>-->
+        <tr>
+            <td><input type="password" name="password" placeholder="Password" required /></td>
+        </tr>
+		<tr>
+            <td><input type="password" name="confirm_password" placeholder="Confirm Password" required /></td>
+        </tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+		<tr>
+            <td><input id="i1" type="submit" name="signup" value="Sign me up!" /></td>
+        </tr>
+        </table>
+	  </div><center>
+	  <p class="c1">Already a member? <a href="login.html">Log in</a></p>
+  </div></center>
+</body>
+</html>

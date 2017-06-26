@@ -1,0 +1,82 @@
+#first
+{
+  float:right;
+  background-color:transparent;
+  width:350px;
+  height:525px;
+  padding:20px;
+  margin:110px;
+  border-radius:20px;
+}
+#third{
+	float:center;
+	background-color:transparent;
+	width:372px;
+    height:70px;
+    margin:0px;
+    padding:5px 17px 20px 5px;
+	padding-left:0px;
+	margin-top:-20px;
+	margin-left:-20px;
+	border-radius:20px 20px 0px 0px;
+	
+	
+}
+::-webkit-input-placeholder
+{
+	font-size:17px;
+	color:black;
+	text-align:center;
+	padding-top:-5px;
+}
+
+p{
+	font-family:sans-serif;
+	font-size:40px;
+	color:white;
+	/*font-weight:bold;*/
+	padding:0px;
+	margin-left:50px;
+	float:top;
+}
+table{
+	line-height:100em;
+	width:325px;
+}
+input{
+	width:400px;
+	height:45px;
+	background-color:transparent;
+	font-size:20px;
+}
+#i1{
+	background-color:#00b8e6;
+	font-size:20px;
+	font-family:sans-serif;
+	color:white;
+}
+body
+{
+	 background: linear-gradient(#0086b3,#6666ff,#8080ff);
+	/*background-color:#333333;*/
+	/*background-image: url("s11.jpg");*/
+	background-image: url("img/login.jpg");
+	background-size:cover;
+}
+.c1{
+	color:white;
+	font-size:25px;
+}
+.i2{
+	width:200px;
+	height:45px;
+}
+.i3{
+	width:200px;
+	height:45px;
+	margin-left:-206px;
+}
+.t1{
+	width:10px;
+	height:45px;
+}
